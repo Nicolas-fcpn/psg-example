@@ -1,0 +1,6 @@
+print ("Yo: Hola gato")
+print ("Gato: Hola humano")
+print ("Yo: ¿Sabes qué pasó con el cable de mis audífonos?")
+print ("Gato: Fue masticado. No tenía muy buen sabor.")
+print ("Yo: Gracias por la información. Hasta luego.")
+print ("Gato: Hasta cualquier momento, humano.")
