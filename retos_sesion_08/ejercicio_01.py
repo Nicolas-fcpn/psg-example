@@ -1,0 +1,6 @@
+coord_x = int(input("Ingrese la coordenada 'x': "))
+coord_y = int(input("Ingrese la coordenada 'y': "))
+coord_z = int(input("Ingrese la coordenada 'z': "))
+tupla = (coord_x, coord_y, coord_z)
+print(f"Coordenadas: {tupla}")
+print(type(tupla))
