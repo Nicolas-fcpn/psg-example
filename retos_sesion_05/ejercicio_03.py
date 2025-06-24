@@ -16,9 +16,6 @@ horas = seg_restante // seg_hora
 seg_restante = seg_restante - horas * seg_hora
 minutos = seg_restante // seg_min
 seg_restante = seg_restante - minutos * seg_min
-print(total_seg, "segundos equivale a:")
-print(semanas, "semana(s)")
-print(dias, "dia(s)")
-print(horas, "hora(s)")
-print(minutos, "minuto(s)")
-print(seg_restante, "segundo(s)")
+print(total_seg, "segundos =", semanas, "semana(s)",\
+      dias, "dia(s)", horas, "hora(s)", minutos, "minuto(s)",\
+        seg_restante, "segundo(s)")
