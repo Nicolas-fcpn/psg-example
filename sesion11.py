@@ -200,3 +200,27 @@ ave = aves['pajaro']
 print(ave)
 ave = aves['aguila']
 print(ave)
+
+ # Una biblioteca almacena la información de sus libros
+ # De cada libro guarda título, autor y el número de copias disponibles
+ # Pepito quiere sacar de la biblioteca un libro de Harry Potter
+ # Titulado: "Harry Potter y la Orden del Fénix" de J.K. Rowling
+ # Verifica si el libros se encuentra dentro de la biblioteca y si tiene copias disponibles
+ # para que Pepito pueda sacarlo de la biblioteca
+biblioteca = {
+    'libros': {
+        'harry_potter_orden_fenix': {
+            'titulo': 'Harry Potter y la Orden del Fénix',
+            'autor': 'J.K. Rowling',
+            'copias_disponibles': 3
+        },
+        'el_señor_de_los_anillos': {
+            'titulo': 'El Señor de los Anillos',
+            'autor': 'J.R.R. Tolkien',
+            'copias_disponibles': 2
+        }
+    }
+}
+libro_buscado = 'harry_potter_orden_fenix'
+valores = biblioteca['libros'].get(libro_buscado)
+print(valores)
