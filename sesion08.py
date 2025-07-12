@@ -114,3 +114,60 @@ tupla = (1,2.0, "hola", True)
 longitud = len(tupla)
 print (tupla)
 print (longitud)
+
+print ("Función max()")
+tupla = (1,2.1,10,5.3,8,0)
+maximo = max(tupla)
+print (tupla)
+print (maximo)
+
+print ("Función min()")
+tupla = ("a","z","c","b","f","d")
+minimo = min(tupla)
+print (tupla)
+print (minimo)
+
+print ("Función sum()")
+tupla = (1.0, 0.5, 2.5, 3.1)
+suma = sum(tupla)
+print (tupla)
+print (suma)
+
+print ("Tuplas anidadas")
+tupla = (1,2,3, (4,5,6))
+print (tupla)
+print (tupla, type(tupla))
+print (tupla[3], type(tupla[3]))
+print (tupla[3][0], type(tupla[3][0]))
+print (tupla[3][1], type(tupla[3][1]))
+
+# EJERCICIO: De la siguiente tupla, accede a los valores 2, 4 y 6
+
+matrix = ((0,1,2), (3,4,5), (6,7,8))
+print (matrix[0][2], type(matrix[0][2]))
+print (matrix[1][1], type(matrix[1][1]))
+print (matrix[2][0], type(matrix[2][0]))
+
+print ("Tuplas anidadas")
+tupla = (1,2,3, (4,5,6))
+print (tupla, type(tupla))
+anidado = tupla[3]
+print (anidado, type(anidado))
+valor_anidado_0 = anidado[0]
+print (valor_anidado_0, type(valor_anidado_0))
+valor_anidado_1 = tupla[3][1]
+print (valor_anidado_1, type(valor_anidado_1))
+
+# EJERCICIO: Acceder a los valores necesarios para formar la frase:
+# "Estoy aprendiendo a programar"
+
+cadenas = (("a","es","el","programar"),
+           ("estoy","apre","ar"),
+           ("ndiendo","a"))
+
+frase = cadenas[1][0] + " " +\
+    cadenas[1][1] + \
+    cadenas[2][0] + " " + \
+    cadenas[0][0] + " " + cadenas[0][3]
+
+print(frase.capitalize())
