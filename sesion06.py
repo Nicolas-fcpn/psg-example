@@ -15,7 +15,7 @@ print(210 + False)
 print(210 + True)
 print(210 * False)
 
-print("Declarar vbariables booleanas")
+print("Declarar variables booleanas")
 var_booleana = True
 print(var_booleana)
 print(type(var_booleana))
