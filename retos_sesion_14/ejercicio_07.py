@@ -64,17 +64,6 @@ tres_en_raya("O", 1, 1)
 tres_en_raya("X", 2, 1)
 tres_en_raya("O", 0, 0)
 
-# Ejemplo de uso - Gana O
-tablero = inicializar_tablero()
-tres_en_raya("X", 0, 2)
-tres_en_raya("O", 1, 0)
-tres_en_raya("X", 1, 2)
-tres_en_raya("O", 2, 2)
-tres_en_raya("X", 2, 0)
-tres_en_raya("O", 1, 1)
-tres_en_raya("X", 2, 1)
-tres_en_raya("O", 0, 0)
-
 # Ejemplo de uso - Empate
 tablero = inicializar_tablero()
 tres_en_raya("X", 0, 0)
